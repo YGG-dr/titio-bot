@@ -1,11 +1,29 @@
 {
+  "name": "titio-bot",
+  "version": "1.0.0",
+  "description": "Многофункциональный бот для моего любимого дяди. ",
+  "homepage": "https://github.com/YGG-dr/titio-bot#readme",
+  "bugs": {
+    "url": "https://github.com/YGG-dr/titio-bot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YGG-dr/titio-bot.git"
+  },
+  "license": "MIT",
+  "author": "ygg.dr",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
-    "lint": "eslint src",
-    "lint:fix": "eslint src --fix",
-    "format": "prettier --write src"
+    "test": "ping"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.2",
-    "globals": "^17.1.0"
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "prettier": "^3.8.1"
   }
 }
