@@ -1,0 +1,39 @@
+root = true
+
+# Global
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+# JavaScript / JSON
+[*.{js,cjs,mjs,json}]
+indent_size = 4
+
+# TypeScript
+[*.ts]
+indent_size = 4
+
+# Python
+[*.py]
+indent_size = 4
+max_line_length = 88
+
+# Rust
+[*.rs]
+indent_size = 4
+
+# Markdown
+[*.md]
+trim_trailing_whitespace = false
+
+# YAML / Docker
+[*.{yml,yaml}]
+indent_size = 4
+
+# Shell
+[*.sh]
+indent_size = 4

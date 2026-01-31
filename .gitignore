@@ -1,0 +1,49 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Node.js
+node/node_modules
+node/npm-debug.log*
+node/yarn-error.log*
+node/pnpm-debug.log*
+node/.npm/
+node/.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.coverage
+.pytest_cache/
+.mypy_cache/
+
+# Rust
+rust/target/
+**/*.rs.bk
+Cargo.lock
+
+# Docker
+docker-compose.override.yml
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+out/
+
+# Temp
+tmp/
+temp/
+logs/
